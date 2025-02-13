@@ -11,6 +11,7 @@
  * Author: Patrick Faramaz
  * Author URI: https://wp-performance.com
  * Text Domain: presswind-helpers
+ * GitHub Plugin URI: wpperformance/presswind-helpers
  *
  */
 
