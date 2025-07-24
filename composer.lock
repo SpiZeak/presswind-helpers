@@ -1,0 +1,87 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "57dba40f91b965a30d0adf122973a163",
+    "packages": [
+        {
+            "name": "wp-performance/presswind-assets",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SpiZeak/presswind-assets.git",
+                "reference": "e194fe95769dfaa38265485802ea2b8d21baafc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SpiZeak/presswind-assets/zipball/e194fe95769dfaa38265485802ea2b8d21baafc7",
+                "reference": "e194fe95769dfaa38265485802ea2b8d21baafc7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-filter": "*",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "pestphp/pest": "^2.24",
+                "tightenco/duster": "^2.7"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PressWind\\": "src/"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "./vendor/bin/pest"
+                ],
+                "lint": [
+                    "./vendor/bin/duster lint"
+                ],
+                "fix": [
+                    "./vendor/bin/duster fix"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "faramazpat",
+                    "email": "infos@goodmotion.fr",
+                    "homepage": "https://goodmotion.fr"
+                }
+            ],
+            "description": "Assets helpers for use Vite JS in WordPress",
+            "homepage": "https://wp-performance.com",
+            "keywords": [
+                "vite js",
+                "wordpress",
+                "wordpress plugin",
+                "wordpress theme",
+                "wordpress vite"
+            ],
+            "support": {
+                "source": "https://github.com/SpiZeak/presswind-assets/tree/main"
+            },
+            "time": "2025-07-20T00:03:18+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "wp-performance/presswind-assets": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.0"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
