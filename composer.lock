@@ -4,21 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "57dba40f91b965a30d0adf122973a163",
+    "content-hash": "bbd5031fbc1eda82a670b0b1951366b4",
     "packages": [
         {
-            "name": "wp-performance/presswind-assets",
+            "name": "spizeak/presswind-assets",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/SpiZeak/presswind-assets.git",
-                "reference": "e194fe95769dfaa38265485802ea2b8d21baafc7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/SpiZeak/presswind-assets/zipball/e194fe95769dfaa38265485802ea2b8d21baafc7",
-                "reference": "e194fe95769dfaa38265485802ea2b8d21baafc7",
-                "shasum": ""
+                "url": "git@github.com:SpiZeak/presswind-assets.git",
+                "reference": "59f97ebe1619efbd4c62555944acdc0ebe88cc9b"
             },
             "require": {
                 "ext-filter": "*",
@@ -57,7 +51,7 @@
                 }
             ],
             "description": "Assets helpers for use Vite JS in WordPress",
-            "homepage": "https://wp-performance.com",
+            "homepage": "https://github.com/SpiZeak/presswind-assets",
             "keywords": [
                 "vite js",
                 "wordpress",
@@ -65,17 +59,14 @@
                 "wordpress theme",
                 "wordpress vite"
             ],
-            "support": {
-                "source": "https://github.com/SpiZeak/presswind-assets/tree/main"
-            },
-            "time": "2025-07-20T00:03:18+00:00"
+            "time": "2025-07-24T08:58:11+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wp-performance/presswind-assets": 20
+        "spizeak/presswind-assets": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

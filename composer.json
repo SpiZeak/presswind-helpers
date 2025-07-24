@@ -27,14 +27,14 @@
       "pestphp/pest-plugin": true
     }
   },
-  "repositories": {
-    "presswind-assets": {
-      "type": "vcs",
+  "repositories": [
+    {
+      "type": "git",
       "url": "git@github.com:SpiZeak/presswind-assets.git"
     }
-  },
+  ],
   "require": {
     "php": ">=8.0",
-    "wp-performance/presswind-assets": "dev-main"
+    "spizeak/presswind-assets": "dev-main"
   }
 }
